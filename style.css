@@ -25,6 +25,9 @@ h1{
     padding-bottom: 1.3rem;
     justify-content: center;
     font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 #navbar__logo{
@@ -83,6 +86,13 @@ h1{
     /* position: relative; */
 }
 
+@media screen and (max-width: 770px) {
+    #navbar__logo{
+        padding-right: 0;
+        margin-left: 0;
+    }
+}
+
 .middle_divider_group{
     background: #505050;
     margin: auto;
@@ -95,7 +105,7 @@ h1{
 
 .rounded_link_button{
     background: #dd1811;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     color: #fff;
     display: block;
@@ -126,33 +136,76 @@ h1{
 
 .rounded_link_button_subhead{
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     display: block;
     letter-spacing: 1.5px;
 }
 
 .rounded_link_button_head{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     display: block;
     font-weight: 700;
 }
 
 .information_showcase{
-    text-align: center;
+    text-align: left;
     color: #fff;
     display: flex;
-    margin: auto;
-    width: 63rem;
-    justify-content: center;
+    margin: 5rem auto;
+    justify-content: left;
+    width: 63vw;
     overflow: hidden;
     border-radius: 8px;
 }
 
-.information_showcase_text{
+.information_showcase_inner{
+    display: flex;
+}
+
+.information_showcase_content{
+    margin-right: 5rem;
+}
+
+.information_showcase_head{
+    justify-content: left;
+    font-size: 4rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.information_showcase_info{
     font-size: 2rem;
-    padding-right: 5rem;
+    margin: 1rem auto;
+    display: block;
 }
 
 .information_showcase_img{
     width: 35rem;
+}
+
+.footer{
+    background:#131313;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    justify-content: left;
+    font-size: 1.3rem;
+    /* position: sticky; */
+    top: 0;
+    z-index: 999;
+}
+
+.footer_logo{
+    margin-left: 5vw;
+    margin-right: 2vw;
+    justify-content: left;
+    display: block;
+    width: 5rem;
+}
+
+.footer_info{
+    margin-top: 2rem;
+    text-align: left;
+    text-decoration: none;
+    font-size: 0.5rem;
 }
