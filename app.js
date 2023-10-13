@@ -3,7 +3,7 @@ function changeImage(imgsrc) {
     document.getElementById('index_background_img').src=imgsrc;
 }
 
-classphotos = ["./images/Home/Grades/Senior.jpg", "./images/Home/Grades/Junior.jpg", "./images/Home/Grades/Sophmore.jpg", "./images/Home/Grades/Freshman.jpg"]
+classphotos = ["./images/Home/Grades/Senior.jpg", "./images/Home/Grades/Junior.jpg", "./images/Home/Grades/Sophmore.jpg", "./images/Home/Grades/Freshman.jpg", "./images/FullTeamBG.jpg"]
 
 let index = 0;
 const imgElement = document.querySelector("#classphoto");

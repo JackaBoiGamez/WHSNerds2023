@@ -4,6 +4,10 @@
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+body{
+    min-height: 100%;
+}
   
 h1{
     color: #fff;
@@ -191,15 +195,14 @@ h1{
     width: 35rem;
 }
 
-.footer{
+footer{
     background:#131313;
     display: flex;
     padding-top: 1rem;
     padding-bottom: 1.3rem;
     justify-content: left;
     font-size: 1.3rem;
-    /* position: sticky; */
-    top: 0;
+    bottom: 0;
     z-index: 999;
 }
 
