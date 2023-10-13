@@ -152,10 +152,8 @@ h1{
     color: #fff;
     display: flex;
     margin: 5rem auto;
-    justify-content: left;
-    width: 63vw;
+    justify-content: center;
     overflow: hidden;
-    border-radius: 8px;
 }
 
 .information_showcase_inner{
@@ -163,12 +161,13 @@ h1{
 }
 
 .information_showcase_content{
-    margin-right: 5rem;
+    margin-right: 2rem;
+    margin-top:  4rem;
 }
 
 .information_showcase_head{
     justify-content: left;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0 auto;
     display: block;
 }
@@ -179,7 +178,16 @@ h1{
     display: block;
 }
 
+.information_showcase_img_container{
+    width: 35rem;
+    height: 25rem;
+    margin-left: 5rem;
+    margin-right: auto;
+    justify-content: center;
+}
+
 .information_showcase_img{
+    margin: auto;
     width: 35rem;
 }
 
