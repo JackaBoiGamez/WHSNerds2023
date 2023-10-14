@@ -105,6 +105,9 @@ h1{
     align-items: center;
     display: flex;
     overflow: hidden;
+    border-bottom: 1rem outset #13131331;
+    border-top: 1rem outset #13131331;
+    padding: 0.1rem;
 }
 
 .rounded_link_button{
@@ -119,6 +122,7 @@ h1{
     overflow: hidden;
     border-radius: 5px;
     display: inline block;
+    border: 0.2rem solid #13131331;
 }
 
 .rounded_link_button_inner{
@@ -167,6 +171,7 @@ h1{
 .information_showcase_content{
     margin-right: 2rem;
     margin-top:  4rem;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 1);
 }
 
 .information_showcase_head{
@@ -193,6 +198,11 @@ h1{
 .information_showcase_img{
     margin: auto;
     width: 35rem;
+    border-bottom: 0.5rem solid #ddc019;
+    border-right: 0.5rem solid #b49c13;
+    border-left: 0.5rem solid #131313;
+    border-top: 0.5rem solid #131313;
+    border-style: ridge;
 }
 
 footer{
