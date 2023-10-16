@@ -170,6 +170,7 @@ h1{
 
 .information_showcase_content{
     margin-right: 2rem;
+    margin-left: 2rem;
     margin-top:  4rem;
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 1);
 }
@@ -190,8 +191,8 @@ h1{
 .information_showcase_img_container{
     width: 35rem;
     height: 25rem;
-    margin-left: 5rem;
-    margin-right: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
     justify-content: center;
 }
 

@@ -3,13 +3,14 @@ function changeImage(imgsrc) {
     document.getElementById('index_background_img').src=imgsrc;
 }
 
-classphotos = ["./images/Home/Grades/Senior.jpg", "./images/Home/Grades/Junior.jpg", "./images/Home/Grades/Sophmore.jpg", "./images/Home/Grades/Freshman.jpg", "./images/FullTeamBG.jpg"]
+classPhotos = ["./images/Home/Grades/Senior.jpg", "./images/Home/Grades/Junior.jpg", "./images/Home/Grades/Sophmore.jpg",
+ "./images/Home/Grades/Freshman.jpg", "./images/FullTeamBG.jpg"]
 
 let index = 0;
-const imgElement = document.querySelector("#classphoto");
+const imgElement = document.querySelector("#classPhoto");
 
 function change() {
-    imgElement.src = classphotos[index];
+    imgElement.src = classPhotos[index];
     index > 1 ? index = 0 : index++;
  }
  
