@@ -68,7 +68,7 @@ h1{
 
 .page_background_img{
     width: 100%;
-    height: 75%;
+    height: 76vw;
     filter: blur(8px);
     -webkit-filter: blur(8px);
     z-index: -2;
@@ -90,13 +90,6 @@ h1{
     /* position: relative; */
 }
 
-@media screen and (max-width: 770px) {
-    #navbar__logo{
-        padding-right: 0;
-        margin-left: 0;
-    }
-}
-
 .middle_divider_group{
     background: #505050;
     margin: auto;
@@ -107,7 +100,6 @@ h1{
     overflow: hidden;
     border-bottom: 1rem outset #13131331;
     border-top: 1rem outset #13131331;
-    padding: 0.1rem;
 }
 
 .rounded_link_button{
@@ -230,4 +222,85 @@ footer{
     text-align: left;
     text-decoration: none;
     font-size: 0.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar{
+        margin-top: -0.1rem;
+    }
+    #navbar__logo{
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .page_background_img{
+        height: 76vw;
+    }
+    .page_foreground_img{
+        width: 99vw;
+    }
+    .middle_divider_group{
+        border-bottom: 0.8rem outset #13131331;
+        border-top: 0.8rem outset #13131331;
+    }
+    .rounded_link_button{
+        margin: 0.8rem 1rem;
+        padding: 0.8rem;
+    }
+    .rounded_link_button_icon{
+        font-size: 24px;
+    }
+
+    .rounded_link_button_subhead{
+        font-size: 0.4rem;
+    }
+    .rounded_link_button_head{
+        font-size: 1.04rem;
+    }
+    .information_showcase{
+        margin: 4rem auto;
+    }
+    .information_showcase_content{
+        margin-right: 1.2rem;
+        margin-left: 1.2rem;
+        margin-top: 2.8rem;
+    }
+    .information_showcase_head{
+        font-size: 2.0rem;
+    }
+    .information_showcase_info{
+        font-size: 1.2rem;
+        margin: 0.4rem auto;
+    }
+    .information_showcase_img_container{
+        width: 21rem;
+        height: 15rem;
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+    }
+    .information_showcase_img{
+        margin: auto;
+        width: 21rem;
+        border-bottom: 0.2rem solid #ddc019;
+        border-right: 0.2rem solid #b49c13;
+        border-left: 0.2rem solid #131313;
+        border-top: 0.2rem solid #131313;
+        border-style: ridge;
+    }
+}
+
+/* TODO: Work on making mobile compatible! */
+
+@media screen and (max-width: 745px) {
+    .navbar{
+        font-size: 0;
+    }
+    .navbar__pages{
+        opacity: 0;
+    }
+}
+
+@media screen and (min-width: 1130px) {
+    .page_background_img{
+        height: 76vh;
+    }
 }
