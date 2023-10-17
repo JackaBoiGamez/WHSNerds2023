@@ -181,21 +181,25 @@ h1{
 }
 
 .information_showcase_img_container{
-    width: 35rem;
+    width: 48rem;
     height: 25rem;
     margin-left: 2rem;
     margin-right: 2rem;
     justify-content: center;
+    overflow: hidden;
 }
 
 .information_showcase_img{
     margin: auto;
-    width: 35rem;
+    max-width: 35rem;
+    max-height: 25rem;
     border-bottom: 0.5rem solid #ddc019;
     border-right: 0.5rem solid #b49c13;
     border-left: 0.5rem solid #131313;
     border-top: 0.5rem solid #131313;
     border-style: ridge;
+    object-fit: scale-down;
+    overflow: hidden;
 }
 
 footer{
@@ -279,7 +283,8 @@ footer{
     }
     .information_showcase_img{
         margin: auto;
-        width: 21rem;
+        max-width: 21rem;
+        max-height: 15rem;
         border-bottom: 0.2rem solid #ddc019;
         border-right: 0.2rem solid #b49c13;
         border-left: 0.2rem solid #131313;
@@ -292,15 +297,88 @@ footer{
 
 @media screen and (max-width: 745px) {
     .navbar{
-        font-size: 0;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .navbar__pages{
-        opacity: 0;
+        opacity: 100;
+        display: none;
+    }
+    #navbar__logo{
+        margin: auto auto;
+    }
+    .middle_divider_group{
+        border-bottom: 0.8rem outset #13131331;
+        border-top: 0.8rem outset #13131331;
+    }
+    .rounded_link_button{
+        margin: 0.8rem 1rem;
+        padding: 0.8rem;
+    }
+    .rounded_link_button_icon{
+        font-size: 24px;
+    }
+
+    .rounded_link_button_subhead{
+        font-size: 0.4rem;
+    }
+    .rounded_link_button_head{
+        font-size: 1.04rem;
+    }
+    .information_showcase{
+        margin: 2rem auto;
+    }
+    .information_showcase_content{
+        margin-right: 0.6rem;
+        margin-left: 0.6rem;
+        margin-top: 1.4rem;
+    }
+    .information_showcase_head{
+        font-size: 1.0rem;
+    }
+    .information_showcase_info{
+        font-size: 0.6rem;
+        margin: 0.2rem auto;
+    }
+    .information_showcase_img_container{
+        width: 10.5rem;
+        height: 7.5rem;
+        margin-left: 0.8rem;
+        margin-right: 0.8rem;
+    }
+    .information_showcase_img{
+        margin: auto;
+        max-width: 10.5rem;
+        max-height: 7.5rem;
+        border-bottom: 0.2rem solid #ddc019;
+        border-right: 0.2rem solid #b49c13;
+        border-left: 0.2rem solid #131313;
+        border-top: 0.2rem solid #131313;
+        border-style: ridge;
+    }
+    footer{
+        padding-top: 0.5rem;
+        padding-bottom: 0.65rem;
+        font-size: 0.65rem;
+    }
+    
+    .footer_logo{
+        margin-left: 2.5vw;
+        margin-right: 1vw;
+        width: 2.5rem;
+    }
+    
+    .footer_info{
+        margin-top: 1rem;
+        font-size: 0.25rem;
     }
 }
 
 @media screen and (min-width: 1130px) {
     .page_background_img{
-        height: 76vh;
+        height: 100vh;
     }
 }
