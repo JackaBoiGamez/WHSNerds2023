@@ -30,7 +30,7 @@ h1{
     justify-content: center;
     font-size: 1.3rem;
     position: sticky;
-    top: 0;
+    top: -0.08rem;
     z-index: 999;
 }
 
@@ -67,7 +67,7 @@ h1{
 }
 
 .page_background_img{
-    width: 100%;
+    width: 99vw;
     height: 76vw;
     filter: blur(8px);
     -webkit-filter: blur(8px);
@@ -184,7 +184,7 @@ h1{
     width: 48rem;
     height: 25rem;
     margin-left: 2rem;
-    margin-right: 2rem;
+    margin-right: -10rem;
     justify-content: center;
     overflow: hidden;
 }
@@ -315,18 +315,18 @@ footer{
         border-top: 0.8rem outset #13131331;
     }
     .rounded_link_button{
-        margin: 0.8rem 1rem;
-        padding: 0.8rem;
+        margin: 0.4rem 0.5rem;
+        padding: 0.4rem;
     }
     .rounded_link_button_icon{
-        font-size: 24px;
+        font-size: 16px
     }
 
     .rounded_link_button_subhead{
-        font-size: 0.4rem;
+        font-size: 0.2rem;
     }
     .rounded_link_button_head{
-        font-size: 1.04rem;
+        font-size: 0.52rem;
     }
     .information_showcase{
         margin: 2rem auto;
@@ -379,6 +379,6 @@ footer{
 
 @media screen and (min-width: 1130px) {
     .page_background_img{
-        height: 100vh;
+        height: 76vh;
     }
 }
