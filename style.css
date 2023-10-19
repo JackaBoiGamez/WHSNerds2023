@@ -43,13 +43,9 @@ h1{
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    /* display: flex;
-    align-items: center; */
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-    /* padding-bottom: 2rem; */
-    /* margin-bottom: -6.2rem; */
     margin-top: 0.2rem;
     margin-left: -3rem;
     padding-right: 7vw;
@@ -82,12 +78,11 @@ h1{
     align-self: center;
     justify-content: center;
     margin: 1rem auto;
-    width: 63rem;           /* TODO: Check for width and change this from rem to percent after a certain threshhold */
+    width: 63rem;
     text-align: center;
     border: 0.5rem solid #343434a2;
     display: block;
     overflow: hidden;
-    /* position: relative; */
 }
 
 .middle_divider_group{
@@ -109,7 +104,6 @@ h1{
     color: #fff;
     display: block;
     margin: 1rem 2rem;
-    /* width: 9rem; */
     padding: 1rem;
     overflow: hidden;
     border-radius: 5px;
