@@ -52,7 +52,7 @@ h1{
     z-index: 1;
 }
 
-.navbar__pages{
+.navbar__pages, .active__page{
     color: #fff;
     justify-content: left;
     align-items: left;
@@ -60,6 +60,10 @@ h1{
     margin-top: 0.7rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.active__page{
+    color: #404040;
 }
 
 .page_background_img{
@@ -194,6 +198,51 @@ h1{
     border-style: ridge;
     object-fit: scale-down;
     overflow: hidden;
+}
+
+.team_showcase{
+    margin: 2rem;
+}
+
+.team_showcase_inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team_showcase_inner_box{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5rem solid #505050;
+    border-right: 0.5rem solid #505050;
+    border-left: 0.5rem solid #505050;
+    border-top: 0.5rem solid #505050;
+    border-style: inset;
+}
+
+.team_showcase_inner_box_image{
+    max-width: 45rem;
+    max-height: 35rem;
+    border-bottom: 0.5rem solid #ddc019;
+    border-right: 0.5rem solid #b49c13;
+    border-left: 0.5rem solid #131313;
+    border-top: 0.5rem solid #131313;
+    border-style: ridge;
+    object-fit: scale-down;
+    overflow: hidden;
+}
+
+.team_showcase_inner_box_subhead{
+    color: #fff;
+    font-size: 32px;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.team_showcase_inner_box_content{
+    color: #fff;
+    font-size: 16px;
+    margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
 footer{
@@ -374,5 +423,11 @@ footer{
 @media screen and (min-width: 1130px) {
     .page_background_img{
         height: 76vh;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .page_background_img{
+        height: 50rem;
     }
 }
