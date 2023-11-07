@@ -236,13 +236,13 @@ h1{
 
 .team_showcase_inner_box_subhead{
     color: #fff;
-    font-size: 32px;
+    font-size: 48px;
     margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .team_showcase_inner_box_content{
     color: #fff;
-    font-size: 16px;
+    font-size: 32px;
     margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
@@ -418,6 +418,23 @@ footer{
     .footer_info{
         margin-top: 1rem;
         font-size: 0.25rem;
+    }
+    
+    .team_showcase_inner_box_image{
+        max-width: 25rem;
+        max-height: 15rem;
+    }
+    
+    .team_showcase_inner_box_subhead{
+        color: #fff;
+        font-size: 28px;
+        margin: 0.5rem 1rem 0.5rem 1rem;
+    }
+    
+    .team_showcase_inner_box_content{
+        color: #fff;
+        font-size: 16px;
+        margin: 0.5rem 1rem 0.5rem 1rem;
     }
 }
 
