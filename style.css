@@ -5,6 +5,8 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+img { max-width: 100%; height: auto }
+
 body{
     min-height: 100%;
     color: #fff;
@@ -349,6 +351,10 @@ footer{
         align-items: center;
     }
     .navbar__pages{
+        opacity: 100;
+        display: none;
+    }
+    .active__page{
         opacity: 100;
         display: none;
     }
