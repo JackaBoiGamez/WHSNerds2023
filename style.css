@@ -56,6 +56,11 @@ h1{
     z-index: 1;
 }
 
+.navbar__menu{
+    display: flex;
+    align-items: center;
+}
+
 .navbar__pages, .active__page{
     color: #fff;
     justify-content: left;
@@ -279,9 +284,17 @@ footer{
     .navbar{
         margin-top: -0.1rem;
     }
+    .navbar__menu{
+        margin-right: -3rem;
+    }
+    .navbar__pages{
+        font-size: 1.1rem;
+    }
+    .active__page{
+        font-size: 1.1rem;
+    }
     #navbar__logo{
-        padding-right: 0;
-        margin-left: 0;
+        padding-right: 2rem;
     }
     .page_background_img{
         height: 76vw;
@@ -350,7 +363,14 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .navbar__pages{
+        font-size: 1.3rem;
+    }
+    .active__page{
+        font-size: 1.3rem;
+    }
     #navbar__logo{
+        padding-right: 0;
         margin: auto auto;
     }
     .navbar__toggle .bar{
